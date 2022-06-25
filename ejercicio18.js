@@ -18,6 +18,7 @@ const existe=()=>{
     }
     console.log(`La palabra 'hola' se encuentra un total de ${contador} veces`)
 }
+
 existe()
 
 //7) Programa una función que valide si una palabra o frase dada, es un palíndromo (que se lee igual en un sentido que en otro), pe. mifuncion("Salas") devolverá true.
