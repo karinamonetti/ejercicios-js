@@ -6,7 +6,19 @@ const alReves= word=>console.log(word.split("").reverse().join(""));
 alReves("Hola ¿cómo está?");
 
 //6) Programa una función para contar el número de veces que se repite una palabra en un texto largo, pe. miFuncion("hola mundo adios mundo", "mundo") devolverá 2.
-
+const existe=()=>{
+    let contador=0;
+    let myString="Hola ¿cómo estás?. Ayer vi a Juanito, le dije hola y ni me escuchó. No voy a decirle hola nunca más";
+    myString=myString.toLowerCase();
+    let myArray=myString.split(" ");
+    for (i=0; i<myArray.length; i++){
+        if(myArray[i]==="hola"){
+            contador++;
+        }
+    }
+    console.log(`La palabra 'hola' se encuentra un total de ${contador} veces`)
+}
+existe()
 
 //7) Programa una función que valide si una palabra o frase dada, es un palíndromo (que se lee igual en un sentido que en otro), pe. mifuncion("Salas") devolverá true.
 
