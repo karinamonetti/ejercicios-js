@@ -29,7 +29,5 @@ stringEnUnArray();
 
 //4) Programa una función que repita un texto X veces, pe. miFuncion('Hola Mundo', 3) devolverá Hola Mundo Hola Mundo Hola Mundo.
 
-const repetir = (text) => {
-    return text.repeat(3);
-}
-repetir("Hola");
+const repetir = text => text.repeat(5);
+repetir("Hola" + " ");
