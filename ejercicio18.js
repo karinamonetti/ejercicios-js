@@ -16,13 +16,24 @@ const existe=()=>{
             contador++;
         }
     }
+    
     console.log(`La palabra 'hola' se encuentra un total de ${contador} veces`)
 }
 
 existe()
 
 //7) Programa una función que valide si una palabra o frase dada, es un palíndromo (que se lee igual en un sentido que en otro), pe. mifuncion("Salas") devolverá true.
-
+const palindromo = () => {
+    let tuPalabra= prompt("Ingresa una palabra (también puede ser un número) y yo te diré si es palíndromo");
+    let tuPalabraAlReves= tuPalabra.split("").reverse().join("")
+    
+    if (tuPalabra===tuPalabraAlReves){
+        alert(`${tuPalabra} es igual a ${tuPalabraAlReves}, entonces ${tuPalabra} es palíndromo`)
+    } else{
+        alert(`${tuPalabra} no es palíndromo`)
+    }
+}
+palindromo()
 
 //8) Programa una función que elimine cierto patrón de caracteres de un texto dado, pe. miFuncion("xyz1, xyz2, xyz3, xyz4 y xyz5", "xyz") devolverá  "1, 2, 3, 4 y 5.
 
