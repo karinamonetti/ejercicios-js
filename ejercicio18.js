@@ -37,3 +37,9 @@ palindromo()
 
 //8) Programa una función que elimine cierto patrón de caracteres de un texto dado, pe. miFuncion("xyz1, xyz2, xyz3, xyz4 y xyz5", "xyz") devolverá  "1, 2, 3, 4 y 5.
 
+const cortar = (word1) =>{
+    alert("Esta es una función que devolverá cierta cantidad de caracteres de un valor ingresado");
+    word1=word1.substr(0,20);
+    console.log(word1)
+}
+cortar("karina la mandarina daniel la rata santos",);
