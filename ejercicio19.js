@@ -34,3 +34,11 @@ capicua(333);
 
 
 //11) Programa una función que calcule el factorial de un número (El factorial de un entero positivo n, se define como el producto de todos los números enteros positivos desde 1 hasta n), pe. miFuncion(5) devolverá 120.
+
+const factorial = (num) => {
+    alert("Calculo el factorial de un número igual o mayor a 1")
+    if (num <= 0 || typeof num !== "number"){
+        return alert("Debes ingresar un número válido")
+    }
+    console.log("a")
+}
