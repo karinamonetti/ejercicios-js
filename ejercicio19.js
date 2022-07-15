@@ -40,5 +40,11 @@ const factorial = (num) => {
     if (num <= 0 || typeof num !== "number"){
         return alert("Debes ingresar un número válido")
     }
-    console.log("a")
+
+    let myFactorial=1;
+    for (i=1; i<=num; i++){
+       myFactorial=myFactorial*i
+    }
+    return `El factorial de ${num} es ${myFactorial}`
 }
+factorial(5);
